@@ -1,0 +1,33 @@
+#! /bin/sh
+
+# add user to docker group
+sudo usermod -aG docker $USER
+
+# set default tilix as terminal
+gsettings set org.gnome.desktop.default-applications.terminal exec 'tilix'
+
+# set default file manager
+xdg-mime default org.gnome.Nautilus.desktop inode/directory
+
+
+### Configure oh-my-zsh
+# add oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# add zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# add powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+# set zsh to default shell
+chsh -s /bin/zsh
+
+# install graphite theme
+git clone https://github.com/vinceliuice/Graphite-gtk-theme.git /tmp/graphite
+/tmp/graphite/install.sh -c dark --tweaks nord rimless normal -t teal
+gsettings set org.gnome.desktop.interface gtk-theme "Graphite-teal-dark-nord"
+
+# configure folders color
+gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
+papirus-folders -C bluegrey
