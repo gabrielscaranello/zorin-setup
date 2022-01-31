@@ -1,5 +1,9 @@
 #! /bin/sh
 
+# Recommend enable multilib mirror
+# edit /etc/pacman.conf file
+# Search for #[multilib] and #Include = /etc/pacman.d/mirrorlist. And uncomment these lines 
+
 sudo pacman -Sy \
 baobab \
 composer \
