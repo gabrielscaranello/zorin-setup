@@ -1,0 +1,12 @@
+#! /bin/sh
+
+# Global node packages
+
+yarn global add \
+@nestjs/cli \
+@quasar/cli \
+@vue/cli \
+n
+
+# set node 16 as default 
+sudo n 16
