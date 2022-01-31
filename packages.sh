@@ -1,20 +1,82 @@
 #! /bin/sh
 
-sudo pacman -Sy tilix zsh ttf-liberation ttf-roboto ttf-roboto-mono firefox \
-transmission-gtk file-roller totem gst-libav gst-plugins-good \
-gnome-calculator gnome-calendar nodejs npm yarn php-fpm composer php-gd php-redis \
-php-pgsql gnome-tweaks gnome-system-monitor papirus-icon-theme gnome-characters \
-ttf-joypixels xdg-utils docker docker-compose gnome-icon-theme-extras gnome-themes-extra \
-python-nautilus gnome-font-viewer wget flameshot flatpak pavucontrol gamemode \
-xdg-user-dirs noto-fonts ttf-hannom ttf-baekmuk gnome-software-packagekit-plugin baobab \
-evince gnome-disk-utility gnome-color-manager gnome-contacts gnome-menus cups \
-gnome-shell-extensions gvfs gvfs-afc gvfs-goa gvfs-google gvfs-mtp gvfs-nfs gvfs-smb \
-sushi tracker tracker-miners tracker3 tracker3-miners xdg-user-dirs-gtk gdm zsh-completions
-gnome-backgrounds
+sudo pacman -Sy \
+baobab \
+composer \
+cups \
+docker \
+docker-compose \
+evince \
+file-roller \
+firefox \
+flameshot \
+flatpak \
+gamemode \
+gdm \
+gnome-backgrounds \
+gnome-calculator \
+gnome-calendar \
+gnome-characters \
+gnome-color-manager \
+gnome-contacts \
+gnome-disk-utility \
+gnome-font-viewer \
+gnome-icon-theme-extras \
+gnome-keyring \
+gnome-menus \
+gnome-shell-extensions \
+gnome-software-packagekit-plugin \
+gnome-system-monitor \
+gnome-themes-extra \
+gnome-tweaks \
+gst-libav \
+gst-plugins-good \
+gvfs \
+gvfs-afc \
+gvfs-goa \
+gvfs-google \
+gvfs-mtp \
+gvfs-nfs \
+gvfs-smb \
+keychain \
+nodejs \
+noto-fonts \
+npm \
+papirus-icon-theme \
+pavucontrol \
+php-fpm \
+php-gd \
+php-pgsql \
+php-redis \
+python-nautilus \
+sushi \
+tilix \
+totem \
+tracker \
+tracker-miners \
+tracker3 \
+tracker3-miners \
+transmission-gtk \
+ttf-baekmuk \
+ttf-hannom \
+ttf-joypixels \
+ttf-liberation \
+ttf-roboto \
+ttf-roboto-mono \
+wget \
+xdg-user-dirs \
+xdg-user-dirs-gtk \
+xdg-utils \
+yarn \
+zsh \
+zsh-completions \
 
 
 # enable cups
 sudo systemctl enable cups.service
 
 # enable gdm
-sudo systemctl enable gdm
+sudo systemctl enable gdm.service
+
+# enable docker
+sudo systemctl enable docker.service
