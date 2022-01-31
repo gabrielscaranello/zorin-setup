@@ -73,7 +73,7 @@ xdg-user-dirs-gtk \
 xdg-utils \
 yarn \
 zsh \
-zsh-completions \
+zsh-completions 
 
 
 # enable cups
