@@ -1,5 +1,16 @@
 #! /bin/sh
 
+# Add base devel packages
 sudo pacman -S --needed base-devel
+
+# Run paru to install missign dependencies
 paru
-paru -Sy visual-studio-code-bin google-chrome papirus-folders ttf-ms-fonts chrome-gnome-shell flat-remix-gtk flat-remix-gnome
+
+# install packages
+paru -Sy \
+chrome-gnome-shell \
+gitflow-avh \
+google-chrome \
+papirus-folders \
+ttf-ms-fonts \
+visual-studio-code-bin \
