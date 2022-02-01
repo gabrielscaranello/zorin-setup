@@ -1,0 +1,11 @@
+#! /bin/sh
+
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.getpostman.Postman
+flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub com.spotify.Client
+flatpak install flathub com.valvesoftware.Steam
+flatpak install flathub io.dbeaver.DBeaverCommunity
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub org.onlyoffice.desktopeditors
+flatpak install flathub rest.insomnia.Insomnia
