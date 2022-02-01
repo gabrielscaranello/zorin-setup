@@ -31,3 +31,7 @@ gsettings set org.gnome.desktop.interface gtk-theme "Graphite-teal-dark-nord"
 # configure folders color
 gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
 papirus-folders -C bluegrey
+
+# set theme to flatpak apps
+stylepak install-system
+stylepak install-user
