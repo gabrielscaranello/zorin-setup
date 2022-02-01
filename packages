@@ -10,6 +10,7 @@ composer \
 cups \
 docker \
 docker-compose \
+eog \
 evince \
 file-roller \
 firefox \
