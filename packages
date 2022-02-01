@@ -4,12 +4,14 @@
 # edit /etc/pacman.conf file
 # Search for #[multilib] and #Include = /etc/pacman.d/mirrorlist. And uncomment these lines 
 
-sudo pacman -Sy \
+pacman -Sy \
 baobab \
 composer \
 cups \
+dialog \
 docker \
 docker-compose \
+dosfstools \
 eog \
 evince \
 file-roller \
@@ -44,9 +46,13 @@ gvfs-mtp \
 gvfs-nfs \
 gvfs-smb \
 keychain \
+mtools \
+network-manager-applet \
+networkmanager \
 nodejs \
 noto-fonts \
 npm \
+os-prober \
 papirus-icon-theme \
 pavucontrol \
 php-fpm \
@@ -54,6 +60,7 @@ php-gd \
 php-pgsql \
 php-redis \
 python-nautilus \
+sudo \
 sushi \
 tilix \
 totem \
@@ -69,6 +76,8 @@ ttf-liberation \
 ttf-roboto \
 ttf-roboto-mono \
 wget \
+wireless_tools \
+wpa_supplicant \
 xdg-user-dirs \
 xdg-user-dirs-gtk \
 xdg-utils \
@@ -77,11 +86,14 @@ zsh \
 zsh-completions 
 
 
+# enable network
+systemctl enable NetworkManager
+
 # enable cups
-sudo systemctl enable cups.service
+systemctl enable cups.service
 
 # enable gdm
-sudo systemctl enable gdm.service
+systemctl enable gdm.service
 
 # enable docker
-sudo systemctl enable docker.service
+systemctl enable docker.service
