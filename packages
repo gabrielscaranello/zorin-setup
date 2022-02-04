@@ -36,6 +36,7 @@ gnome-software-packagekit-plugin \
 gnome-system-monitor \
 gnome-themes-extra \
 gnome-tweaks \
+grim \
 gst-libav \
 gst-plugins-good \
 gvfs \
@@ -78,6 +79,7 @@ ttf-roboto-mono \
 wget \
 wireless_tools \
 wpa_supplicant \
+xdg-desktop-portal \
 xdg-user-dirs \
 xdg-user-dirs-gtk \
 xdg-utils \
