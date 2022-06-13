@@ -17,6 +17,7 @@ paru
 paru -Sy \
 chrome-gnome-shell \
 gitflow-avh \
+gnome-text-editor \
 google-chrome \
 papirus-folders \
 stylepak-git \

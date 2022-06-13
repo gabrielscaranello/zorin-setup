@@ -23,15 +23,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 # set zsh to default shell
 chsh -s /bin/zsh
 
-# install graphite theme
-git clone https://github.com/vinceliuice/Graphite-gtk-theme.git /tmp/graphite
-/tmp/graphite/install.sh -c dark --tweaks nord rimless normal -t teal
-gsettings set org.gnome.desktop.interface gtk-theme "Graphite-teal-dark-nord"
-
 # configure folders color
 gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
-papirus-folders -C bluegrey
-
-# set theme to flatpak apps
-stylepak install-system
-stylepak install-user
+papirus-folders -C adwaita
