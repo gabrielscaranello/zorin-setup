@@ -5,6 +5,7 @@
 # Search for #[multilib] and #Include = /etc/pacman.d/mirrorlist. And uncomment these lines 
 
 pacman -Sy \
+archlinux-wallpaper \
 baobab \
 composer \
 cups \
@@ -21,24 +22,26 @@ flameshot \
 flatpak \
 gamemode \
 gdm \
-gnome-backgrounds \
 gnome-calculator \
 gnome-calendar \
-gnome-characters \
-gnome-color-manager \
+gnome-contacts \
 gnome-contacts \
 gnome-disk-utility \
 gnome-font-viewer \
 gnome-icon-theme-extras \
+gnome-initial-setup \
 gnome-keyring \
 gnome-menus \
+gnome-software \
 gnome-software-packagekit-plugin \
 gnome-system-monitor \
+gnome-text-editor \
 gnome-themes-extra \
 gnome-tweaks \
 grim \
 gst-libav \
 gst-plugins-good \
+gtk-engine-murrine \
 gvfs \
 gvfs-afc \
 gvfs-goa \
@@ -47,37 +50,29 @@ gvfs-mtp \
 gvfs-nfs \
 gvfs-smb \
 keychain \
-libpackagekit-glib \
+man \
+man-db \
 mtools \
+nautilus \
 neovim \
 network-manager-applet \
 networkmanager \
-nodejs \
 noto-fonts \
 noto-fonts-emoji \
-npm \
 ntfs-3g \
 numlockx \
 os-prober \
 packagekit \
 pacman-contrib \
-papirus-icon-theme \
 pavucontrol \
 php-fpm \
-php-gd \
-php-pgsql \
-php-redis \
 piper \
 python-nautilus \
 python-pynvim \
+sassc \
 sudo \
 sushi \
 tilix \
-tracker \
-tracker-miners \
-tracker3 \
-tracker3-miners \
-transmission-gtk \
 ttf-baekmuk \
 ttf-fira-code \
 ttf-hannom \
@@ -91,13 +86,13 @@ wireless_tools \
 wpa_supplicant \
 xclip \
 xdg-desktop-portal \
+xdg-desktop-portal-gnome \
 xdg-user-dirs \
 xdg-user-dirs-gtk \
 xdg-utils \
 xorg-xclipboard \
-yarn \
 zsh \
-zsh-completions 
+zsh-completions
 
 
 # enable network
