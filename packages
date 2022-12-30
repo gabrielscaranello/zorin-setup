@@ -50,6 +50,7 @@ gvfs-mtp \
 gvfs-nfs \
 gvfs-smb \
 keychain \
+lazygit \
 man \
 man-db \
 mtools \

@@ -1,8 +1,15 @@
 #! /bin/sh
 
-# set node 16 as default 
-nvm install 16
-nvm use 16
+# Install NVM
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.zshrc
+
+# set node 18 as default 
+nvm install 18
+nvm use 18
+
+# Install yarn as global
+npm i -g yarn
 
 # Global node packages
 yarn global add \

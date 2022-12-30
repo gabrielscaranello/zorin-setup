@@ -15,11 +15,8 @@ paru
 
 # install packages
 paru -Sy \
-chrome-gnome-shell \
 gitflow-avh \
-gnome-text-editor \
-google-chrome \
-papirus-folders \
+lazydocker \
 stylepak-git \
 ttf-ms-fonts \
-visual-studio-code-bin 
+visual-studio-code-bin
