@@ -1,5 +1,22 @@
 #! /bin/sh
 
+
+# Setup theme
+# Gtk theme
+git clone https://github.com/vinceliuice/Graphite-gtk-theme.git /tmp/graphite
+/tmp/graphite/install.sh -l -c dark --tweaks nord rimless normal darker
+gsettings set org.gnome.desktop.interface gtk-theme "Graphite-blue-Dark-nord"
+gsettings set org.gnome.desktop.wm.preferences theme "Graphite-blue-Dark-nord"
+
+# Icon theme
+paru -Sy papirus-icon-theme papirus-folders-git
+papirus-folders -C adwaita
+gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+
+# wallpaper
+gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/archlinux/awesome.png"
+gsettings set org.gnome.desktop.background picture-uri-dark "file:///usr/share/backgrounds/archlinux/awesome.png"
+
 # set zsh to default shell
 chsh -s /bin/zsh
 
@@ -16,13 +33,12 @@ gsettings set org.gnome.desktop.default-applications.terminal exec 'tilix'
 # set default file manager
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 
-
 ### Configure oh-my-zsh
-# add oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh) && exit"
-
 # add zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # add powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+# add oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh) && exit"
