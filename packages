@@ -106,3 +106,6 @@ systemctl enable gdm.service
 
 # enable docker
 systemctl enable docker.service
+
+# enable bluetooth
+systemctl enable bluetooth.service
