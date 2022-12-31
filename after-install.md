@@ -28,3 +28,11 @@ Run `./after-install/docker.sh` to setup docker config
 
 ## Setup default apps
 Run `./after-install/default-apps.sh` to setup default apps
+
+## Remove unused packages
+
+Clean cache and unused packages
+
+```sh
+paru -Sccd && paru -Rsn $(paru -Qqdt)
+```
