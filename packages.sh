@@ -65,7 +65,6 @@ numlockx \
 os-prober \
 packagekit \
 pacman-contrib \
-pavucontrol \
 php-fpm \
 piper \
 python-nautilus \
