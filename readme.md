@@ -7,4 +7,4 @@ This guide translates my personal installation, with packages that I use in my d
 
 [More informations](https://wiki.archlinux.org/title/Installation_guide_(Portugu%C3%AAs))
 
-After installation, user creation you can run other scrips and check [After install guide](after-install.md).
+After installation and user creation, you can check the [after install guide](after-install.md) to find out my personal settings. Feel free to adapt to your preference.

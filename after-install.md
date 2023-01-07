@@ -4,7 +4,7 @@
 Run `./after-install/paru.sh` to install paru
 
 ## Install flatpak apps
-Run `./after-install/flatpak.sh` to install the flatpk apps
+Run `./after-install/flatpak.sh` to install the flatpak apps
 
 ## Setup theme and icons
 Run `./after-install/look.sh` to setup look
@@ -24,7 +24,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 After install oh-my-zsh run `./after-install/profile.sh`
 
 ## Setup docker
-Run `./after-install/docker.sh` to setup docker config
+Run `./after-install/docker.sh` to setup docker permissions
 
 ## Setup default apps
 Run `./after-install/default-apps.sh` to setup default apps
