@@ -4,9 +4,10 @@
 # edit /etc/pacman.conf file
 # Search for #[multilib] and #Include = /etc/pacman.d/mirrorlist. And uncomment these lines 
 
-pacman -Sy \
+pacman -Sy --noconfirm \
 archlinux-wallpaper \
 baobab \
+bat \
 composer \
 cups \
 dialog \
@@ -74,7 +75,7 @@ sudo \
 sushi \
 tilix \
 ttf-baekmuk \
-ttf-fira-code \
+ttf-firacode-nerd \
 ttf-hannom \
 ttf-joypixels \
 ttf-liberation \
