@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # Add base devel packages
-sudo pacman -S --needed base-devel
+sudo pacman -S --needed --noconfirm base-devel
 
 # Cloning Paru
 git clone https://aur.archlinux.org/paru.git /tmp/paru
@@ -14,7 +14,7 @@ makepkg -si
 paru
 
 # install packages
-paru -Sy \
+paru -Sy --noconfirm \
 gitflow-avh \
 lazydocker \
 stylepak-git \
