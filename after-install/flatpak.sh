@@ -1,10 +1,32 @@
 #! /bin/sh
 
-flatpak install flathub com.google.Chrome
-flatpak install flathub com.mattjakeman.ExtensionManager
-flatpak install flathub com.spotify.Client
-flatpak install flathub com.valvesoftware.Steam
-flatpak install flathub io.dbeaver.DBeaverCommunity
-flatpak install flathub org.gimp.GIMP
-flatpak install flathub org.onlyoffice.desktopeditors
-flatpak install flathub rest.insomnia.Insomnia
+APPS=(
+  com.google.Chrome
+  com.mattjakeman.ExtensionManager
+  com.valvesoftware.Steam
+  io.dbeaver.DBeaverCommunity
+  org.gimp.GIMP
+  org.onlyoffice.desktopeditors
+  rest.insomnia.Insomnia
+)
+
+NOT_OVERRIDE_APPS=(
+  com.valvesoftware.Steam
+)
+
+# Install apps
+echo "Installing APPs..."
+for app in ${APPS[@]}; do
+  flatpak install flathub --assumeyes "$app"
+done
+echo $'\nInstall APPs completed!\n'
+
+# Overhide host filesystem
+echo "Override APPs to host filesystem"
+for app in ${APPS[@]}; do
+  if [[ ! " ${NOT_OVERRIDE_APPS[*]} " == *" $app "* ]]; then
+    echo $'Overriding' "$app..."
+    sudo flatpak override --filesystem=host "$app"
+  fi
+done
+echo $'\nAll override completed\n'
