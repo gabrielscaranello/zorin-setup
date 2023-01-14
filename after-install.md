@@ -29,6 +29,30 @@ Run `./after-install/docker.sh` to setup docker permissions
 ## Setup default apps
 Run `./after-install/default-apps.sh` to setup default apps
 
+## Setup zram and swap
+
+> Needs reboot
+
+```sh
+# update max ram swap from zram
+echo 'zram-size=max(ram/2, 4096)' | sudo tee -a /etc/systemd/zram-generator.conf
+
+# adjust swappiness and cache pressure
+echo 'vm.swappiness=10' | sudo tee -a /etc/sysctl.d/00-custom.conf
+echo 'vm.vfs_cache_pressure=50' | sudo tee -a /etc/sysctl.d/00-custom.conf
+```
+
+## Enable OS Prober to detect other SO
+
+> This is optional, recommended for dual boot
+>
+> Needs reboot
+
+```sh
+echo 'GRUB_DISABLE_OS_PROBER=false' | sudo tee -a /etc/default/grub
+LANG="en_US.UTF-8" sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ## Remove unused packages
 
 Clean cache and unused packages
