@@ -1,6 +1,5 @@
 #! /bin/sh
 
-flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.google.Chrome
 flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub com.spotify.Client
