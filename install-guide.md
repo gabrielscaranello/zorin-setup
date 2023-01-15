@@ -9,7 +9,7 @@ In this installation I will use the installation script `archinstall`
 - An bootable device with Arch Linux
 
 ### First step (archinstall)
-- After iso boot run `archinstall` to execure installation
+- After iso boot run `archinstall` to execute installation
 - Follow all steps and select your options (I recommend doing the minimal installation and not adding a user in this step)
 - Finally, select the `install` option
 - Wait installation and reboot after then
@@ -46,3 +46,4 @@ In this installation I will use the installation script `archinstall`
 In the next boot, a gnome guided graphical interface will be presented for creating your user.
 
 To have sudo access you will need to add this user in `/etc/sudoers`
+

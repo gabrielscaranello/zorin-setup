@@ -9,3 +9,4 @@ sudo rm -rf avahi-discover.desktop \
     qvidcap.desktop
 
 cd
+

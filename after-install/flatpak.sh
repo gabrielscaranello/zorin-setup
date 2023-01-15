@@ -30,3 +30,4 @@ for app in ${APPS[@]}; do
   fi
 done
 echo $'\nAll override completed\n'
+

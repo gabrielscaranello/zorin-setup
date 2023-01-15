@@ -62,3 +62,4 @@ paru -Sccd && paru -Rsn $(paru -Qqdt)
 ```
 
 > More desktop config and infos on [My Dotfiles Repository](https://github.com/gabrielscaranello/dotfiles).
+

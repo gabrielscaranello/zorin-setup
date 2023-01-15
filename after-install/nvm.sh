@@ -17,3 +17,4 @@ yarn global add \
 @nestjs/cli \
 @quasar/cli \
 @vue/cli 
+

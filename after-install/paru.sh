@@ -20,3 +20,4 @@ lazydocker \
 stylepak-git \
 ttf-ms-fonts \
 visual-studio-code-bin
+
