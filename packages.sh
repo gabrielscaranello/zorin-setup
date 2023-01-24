@@ -74,7 +74,6 @@ python-pynvim \
 sassc \
 sudo \
 sushi \
-telegram-desktop \
 tilix \
 ttf-baekmuk \
 ttf-firacode-nerd \
