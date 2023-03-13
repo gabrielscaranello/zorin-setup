@@ -1,7 +1,7 @@
 # After Install Arch Linux
 
-## Install paru to be AUR helper
-Run `./after-install/paru.sh` to install paru
+## Install yay to be AUR helper
+Run `./after-install/yay.sh` to install yay
 
 ## Install flatpak apps
 Run `./after-install/flatpak.sh` to install the flatpak apps
@@ -58,7 +58,7 @@ LANG="en_US.UTF-8" sudo grub-mkconfig -o /boot/grub/grub.cfg
 Clean cache and unused packages
 
 ```sh
-paru -Sccd && paru -Rsn $(paru -Qqdt)
+yay -Sccd && yay -Rsn $(yay -Qqdt)
 ```
 
 > More desktop config and infos on [My Dotfiles Repository](https://github.com/gabrielscaranello/dotfiles).
