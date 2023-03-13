@@ -24,10 +24,12 @@ flameshot \
 flatpak \
 gamemode \
 gdm \
+gnome-bluetooth \
 gnome-calculator \
 gnome-calendar \
 gnome-contacts \
 gnome-contacts \
+gnome-control-center \
 gnome-disk-utility \
 gnome-font-viewer \
 gnome-icon-theme-extras \
