@@ -3,7 +3,7 @@
 APPS=(
   com.google.Chrome
   com.mattjakeman.ExtensionManager
-  com.valvesoftware.Steam
+  # com.valvesoftware.Steam
   io.dbeaver.DBeaverCommunity
   org.gimp.GIMP
   org.onlyoffice.desktopeditors
@@ -11,7 +11,7 @@ APPS=(
 )
 
 NOT_OVERRIDE_APPS=(
-  com.valvesoftware.Steam
+  # com.valvesoftware.Steam
 )
 
 # Install apps
