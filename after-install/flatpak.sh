@@ -7,6 +7,7 @@ APPS=(
   io.dbeaver.DBeaverCommunity
   org.gimp.GIMP
   org.onlyoffice.desktopeditors
+  org.telegram.desktop
   rest.insomnia.Insomnia
 )
 
