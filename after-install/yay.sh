@@ -15,8 +15,8 @@ yay -Y --gendb
 
 # install packages
 yay -Sy --noconfirm \
-gitflow-avh \
-lazydocker \
-ttf-ms-fonts \
-visual-studio-code-bin
-
+    crycord \
+    gitflow-avh \
+    lazydocker \
+    ttf-ms-fonts \
+    visual-studio-code-bin

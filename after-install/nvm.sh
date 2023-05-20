@@ -14,7 +14,7 @@ npm i -g yarn
 
 # Global node packages
 yarn global add \
-@nestjs/cli \
-@quasar/cli \
-@vue/cli
-
+    @nestjs/cli \
+    @quasar/cli \
+    @vue/cli \
+    tree-sitter-cli

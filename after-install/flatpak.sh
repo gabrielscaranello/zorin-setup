@@ -6,7 +6,6 @@ APPS=(
     io.dbeaver.DBeaverCommunity
     org.gimp.GIMP
     org.onlyoffice.desktopeditors
-    org.telegram.desktop
     rest.insomnia.Insomnia
 )
 
@@ -25,4 +24,3 @@ sudo flatpak override --filesystem=xdg-config/gtk-4.0
 sudo flatpak override --filesystem=xdg-config/gtk-3.0
 
 echo $'\nAll override completed\n'
-
