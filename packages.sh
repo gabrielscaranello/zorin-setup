@@ -54,6 +54,7 @@ pacman -Sy --noconfirm \
     gvfs-nfs \
     gvfs-smb \
     keychain \
+    kitty \
     lazygit \
     man \
     man-db \
@@ -78,10 +79,9 @@ pacman -Sy --noconfirm \
     sassc \
     sudo \
     sushi \
-    tilix \
     ttf-baekmuk \
-    ttf-firacode-nerd \
     ttf-hannom \
+    ttf-jetbrains-mono-nerd \
     ttf-joypixels \
     ttf-liberation \
     ttf-roboto \
