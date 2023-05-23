@@ -18,5 +18,4 @@ yay -Sy --noconfirm \
     crycord \
     gitflow-avh \
     lazydocker \
-    ttf-ms-fonts \
-    visual-studio-code-bin
+    ttf-ms-fonts
