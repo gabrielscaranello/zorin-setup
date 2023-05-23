@@ -1,7 +1,6 @@
 #! /bin/sh
 
 APPS=(
-    com.google.Chrome
     com.mattjakeman.ExtensionManager
     io.dbeaver.DBeaverCommunity
     org.gimp.GIMP

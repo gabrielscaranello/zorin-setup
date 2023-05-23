@@ -9,6 +9,7 @@ pacman -Sy --noconfirm \
     bat \
     bottom \
     composer \
+    chromium \
     cups \
     dialog \
     discord \
