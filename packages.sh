@@ -8,10 +8,14 @@ pacman -Sy --noconfirm \
     baobab \
     bat \
     bottom \
-    composer \
     chromium \
+    cinnamon \
+    cinnamon-control-center \
+    cinnamon-desktop \
+    cinnamon-session \
+    cinnamon-translations\
+    composer \
     cups \
-    dialog \
     discord \
     docker \
     docker-compose \
@@ -24,43 +28,33 @@ pacman -Sy --noconfirm \
     flameshot \
     flatpak \
     gamemode \
-    gdm \
     gdu \
-    gnome-backgrounds \
-    gnome-bluetooth \
     gnome-calculator \
     gnome-calendar \
     gnome-contacts \
-    gnome-contacts \
-    gnome-control-center \
     gnome-disk-utility \
     gnome-font-viewer \
-    gnome-icon-theme-extras \
-    gnome-keyring \
-    gnome-menus \
     gnome-software \
     gnome-system-monitor \
-    gnome-text-editor \
-    gnome-themes-extra \
-    gnome-tweaks \
-    grim \
     gst-libav \
     gst-plugins-good \
     gtk-engine-murrine \
     gvfs \
     gvfs-afc \
     gvfs-goa \
-    gvfs-google \
     gvfs-mtp \
     gvfs-nfs \
     gvfs-smb \
     keychain \
     kitty \
     lazygit \
+    lightdm \
+    lightdm-gtk-greeter \
     man \
     man-db \
+    mintlocale \
     mtools \
-    nautilus \
+    nemo \
     neovim \
     network-manager-applet \
     networkmanager \
@@ -73,13 +67,11 @@ pacman -Sy --noconfirm \
     pacman-contrib \
     php-fpm \
     piper \
-    python-nautilus \
-    python-pynvim \
     python3 \
+    redshift \
     ripgrep \
     sassc \
     sudo \
-    sushi \
     ttf-baekmuk \
     ttf-hannom \
     ttf-jetbrains-mono-nerd \
@@ -93,7 +85,6 @@ pacman -Sy --noconfirm \
     wpa_supplicant \
     xclip \
     xdg-desktop-portal \
-    xdg-desktop-portal-gnome \
     xdg-user-dirs \
     xdg-user-dirs-gtk \
     xdg-utils \
@@ -108,11 +99,8 @@ systemctl enable NetworkManager
 # enable cups
 systemctl enable cups.service
 
-# enable gdm
-systemctl enable gdm.service
+# enable lightdm
+systemctl enable lightdm.service
 
 # enable docker
 systemctl enable docker.service
-
-# enable bluetooth
-systemctl enable bluetooth.service
