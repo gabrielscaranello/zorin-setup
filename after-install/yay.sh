@@ -18,4 +18,6 @@ yay -Sy --noconfirm \
     crycord \
     gitflow-avh \
     lazydocker \
+    pix \
     ttf-ms-fonts
+ 
