@@ -1,3 +1,9 @@
+### ⚠️ Caution! ⚠️
+
+This guide and settings are out of date. Please head to my [dotfiles repository](https://github.com/gabrielscaranello/dotfiles) for the latest configuration.
+
+---
+
 # Arch Linux install guide 🐧
 
 This is my Arch Linux installation setup. 😍
@@ -6,8 +12,8 @@ This guide translates my personal installation, with packages that I use in my d
 
 ## Preview
 
-![](https://raw.githubusercontent.com/gabrielscaranello/dotfiles/main/preview-1.png)
-![](https://raw.githubusercontent.com/gabrielscaranello/dotfiles/main/preview-2.png)
+![](https://raw.githubusercontent.com/gabrielscaranello/dotfiles/c7af036dfd376212aeface9cf659ec3bfdcf7a19/preview-1.png)
+![](https://raw.githubusercontent.com/gabrielscaranello/dotfiles/c7af036dfd376212aeface9cf659ec3bfdcf7a19/preview-2.png)
 
 [Install guide](install-guide.md)
 
