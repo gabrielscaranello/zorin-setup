@@ -1,6 +1,6 @@
-### ⚠️ Caution! ⚠️
-
-This guide and settings are out of date. Please head to my [dotfiles repository](https://github.com/gabrielscaranello/dotfiles) for the latest configuration.
+> [!CAUTION]  
+> This repository is being redesigned and will be available soon.  
+> Another old setup similar to the one that will be created can be found in [this repository](https://github.com/gabrielscaranello/dotfiles.old/tree/arch-kde).
 
 ---
 
