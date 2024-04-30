@@ -6,12 +6,15 @@ PACKAGES=$(cat "$PWD/nvidia-packages" | tr '\n' ' ')
 echo "Configuring NVIDIA hybrid drivers..."
 
 echo "Installing driver packages"
-yay --noconfirm && -Sy --noconfirm $PACKAGES
+yay --noconfirm && yay -Sy --noconfirm $PACKAGES
 
-echo "Enabling switcheroo-control.service..."
+echo "Enabling services..."
+sudo systemctl enable nvidia-hibernate.service
+sudo systemctl enable nvidia-powerd.service
+sudo systemctl enable nvidia-resume.service
 sudo systemctl enable switcheroo-control.service
 
 echo "Change to nvidia driver usign envycontrol..."
-sudo envycontrol -s nvidia
+sudo envycontrol --force-comp --dm sddm -s nvidia
 
 echo "NVIDIA hybrid drivers configured."

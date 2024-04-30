@@ -18,6 +18,7 @@ docker-buildx
 docker-compose
 dolphin
 dosfstools
+fd
 ffmpegthumbs
 firefox
 firefox-i18n-pt-br
@@ -45,6 +46,7 @@ kwallet-pam
 lua
 luarocks
 man-db
+mercurial
 mtools
 neovim
 noto-fonts
@@ -80,9 +82,11 @@ ripgrep
 sassc
 sddm
 sddm-kcm
-sonnet5
+sonnet
 system-config-printer
+telegram-desktop
 thermald
+tree-sitter-cli
 ttf-baekmuk
 ttf-carlito
 ttf-dejavu
