@@ -25,3 +25,7 @@ setup-nvidia-hydrid:
 setup-swap:
 	@sh ./scripts/setup-swap.sh
 
+usermod:
+	@sh ./scripts/usermod.sh
+
+

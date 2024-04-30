@@ -10,6 +10,7 @@ bash $PWD/scripts/install-aur-packages.sh
 bash $PWD/scripts/install-nvm.sh
 bash $PWD/scripts/hide-desktop-apps.sh
 bash $PWD/scripts/setup-swap.sh
+bash $PWD/scripts/usermod.sh
 bash $PWD/scripts/enable-services.sh
 
 echo "Installation is completed!"
