@@ -7,6 +7,9 @@ copy-plasma-config:
 copy-sddm-config:
 	@sh ./scripts/copy-sddm-config.sh
 
+enable-os-prober:
+	@sh ./scripts/enable-os-prober.sh
+
 enable-services:
 	@sh ./scripts/enable-services.sh
 
