@@ -31,8 +31,8 @@ install-nvm:
 install-yay:
 	@sh ./scripts/install-yay.sh
 
-setup-nvidia-hydrid:
-	@sh ./scripts/setup-nvidia-hydrid.sh
+setup-nvidia-hybrid:
+	@sh ./scripts/setup-nvidia-hybrid.sh
 
 setup-swap:
 	@sh ./scripts/setup-swap.sh

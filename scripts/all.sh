@@ -16,7 +16,6 @@ bash $PWD/scripts/copy-plasma-config.sh
 bash $PWD/scripts/copy-sddm-config.sh
 bash $PWD/scripts/setup-swap.sh
 bash $PWD/scripts/usermod.sh
-bash $PWD/scripts/enable-os-prober.sh
 bash $PWD/scripts/enable-services.sh
 
 echo "Installation is completed!"

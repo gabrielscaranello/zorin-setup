@@ -1,3 +1,9 @@
 [General]
-background=5120x2880.png
+showlogo=hidden
+logo=/usr/share/sddm/themes/breeze/default-logo.svg
 type=image
+color=#89b4fa
+fontSize=10
+background=/usr/share/wallpapers/Next/contents/images_dark/5120x2880.png
+needsFullUserModel=false
+

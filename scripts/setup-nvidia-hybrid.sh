@@ -15,6 +15,6 @@ sudo systemctl enable nvidia-resume.service
 sudo systemctl enable switcheroo-control.service
 
 echo "Change to nvidia driver usign envycontrol..."
-sudo envycontrol --force-comp --dm sddm -s nvidia
+sudo envycontrol --dm sddm -s hybrid
 
 echo "NVIDIA hybrid drivers configured."
