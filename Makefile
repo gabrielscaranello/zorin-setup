@@ -1,6 +1,12 @@
 all:
 	@sh ./scripts/all.sh
 
+copy-plasma-config:
+	@sh ./scripts/copy-plasma-config.sh
+
+copy-sddm-config:
+	@sh ./scripts/copy-sddm-config.sh
+
 enable-services:
 	@sh ./scripts/enable-services.sh
 
@@ -12,6 +18,9 @@ install-pacman-packages:
 
 install-aur-packages:
 	@sh ./scripts/install-aur-packages.sh
+
+install-bibata-cursor:
+	@sh ./scripts/install-bibata-cursor.sh
 
 install-nvm:
 	@sh ./scripts/install-nvm.sh
