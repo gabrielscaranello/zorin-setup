@@ -89,4 +89,5 @@ _add_papirus_repo
 _add_spotify_repo
 _add_vscode_repo
 install_nala
+sudo nala update
 echo "Missing deb repos added."
