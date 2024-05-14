@@ -24,6 +24,7 @@ ln -fs /usr/share/themes/Catppuccin-Mocha-Standard-Blue-Dark/gtk-4.0/gtk-dark.cs
 echo "Defining GTK Theme..."
 gsettings set org.gnome.desktop.interface gtk-theme "Catppuccin-Mocha-Standard-Blue-Dark"
 gsettings set org.gnome.desktop.wm.preferences theme "Catppuccin-Mocha-Standard-Blue-Dark"
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 dconf write /org/gnome/shell/extensions/user-theme/name "'Catppuccin-Mocha-Standard-Blue-Dark'"
 
 echo "GTK Theme setup done."
