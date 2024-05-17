@@ -11,6 +11,7 @@ docker-ce
 docker-ce-cli
 docker-compose
 docker-compose-plugin
+exa
 fd-find
 file-roller
 flameshot
