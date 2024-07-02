@@ -2,6 +2,7 @@ bat
 btop
 build-essential
 cargo
+celluloid
 cmake
 code
 containerd.io
@@ -48,7 +49,6 @@ tidy
 timeshift
 ttf-mscorefonts-installer
 unzip
-vlc
 xclip
 zram-tools
 zsh

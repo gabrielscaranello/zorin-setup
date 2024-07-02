@@ -2,7 +2,7 @@
 folder-children=['Utilities', 'YaST']
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['yelp.desktop', 'org.gnome.baobab.desktop', 'gnome-session-properties.desktop', 'update-manager.desktop', 'com.zorin.desktop.upgrader.desktop', 'gufw.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.flameshot.Flameshot.desktop', 'org.gnome.FileRoller.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'alacarte.desktop', 'org.gnome.Weather.desktop', 'gnome-system-monitor.desktop', 'nvidia-settings.desktop', 'software-properties-gtk.desktop', 'gnome-language-selector.desktop', 'install-zorin-windows-app-support.desktop', 'org.gnome.Evince.desktop', 'org.gnome.eog.desktop', 'zorin-appearance.desktop', 'zorin-connect.desktop', 'org.gnome.Logs.desktop', 'org.gnome.font-viewer.desktop']
+apps=['yelp.desktop', 'org.gnome.baobab.desktop', 'gnome-session-properties.desktop', 'update-manager.desktop', 'com.zorin.desktop.upgrader.desktop', 'io.github.celluloid_player.Celluloid.desktop', 'gufw.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.flameshot.Flameshot.desktop', 'org.gnome.FileRoller.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'alacarte.desktop', 'org.gnome.Weather.desktop', 'gnome-system-monitor.desktop', 'nvidia-settings.desktop', 'software-properties-gtk.desktop', 'org.gnome.clocks.desktop', 'gnome-language-selector.desktop', 'install-zorin-windows-app-support.desktop', 'org.gnome.Evince.desktop', 'org.gnome.eog.desktop', 'zorin-appearance.desktop', 'zorin-connect.desktop', 'org.gnome.Logs.desktop', 'org.gnome.font-viewer.desktop', 'timeshift-gtk.desktop']
 categories=['X-GNOME-Utilities']
 name='X-GNOME-Utilities.directory'
 translate=true
@@ -77,11 +77,6 @@ night-light-temperature=uint32 4700
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-binding='Print'
-command='flameshot gui'
-name='Flameshot'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Primary><Super>s'
 command='flameshot gui'
 name='Flameshot'
@@ -90,14 +85,14 @@ name='Flameshot'
 overrides={'Gtk/ShellShowsAppMenu': <1>}
 
 [org/gnome/shell]
-app-picker-layout=[{'org.gnome.Calculator.desktop': <{'position': <0>}>, 'org.gnome.Calendar.desktop': <{'position': <1>}>, 'gnome-control-center.desktop': <{'position': <2>}>, 'org.gnome.Contacts.desktop': <{'position': <3>}>, 'org.gnome.gedit.desktop': <{'position': <4>}>, 'org.freedesktop.Piper.desktop': <{'position': <5>}>, 'org.gnome.Software.desktop': <{'position': <6>}>, 'org.gnome.clocks.desktop': <{'position': <7>}>, 'vlc.desktop': <{'position': <8>}>, 'timeshift-gtk.desktop': <{'position': <9>}>, 'code.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>}]
+app-picker-layout=[{'org.gnome.Calculator.desktop': <{'position': <0>}>, 'org.gnome.Calendar.desktop': <{'position': <1>}>, 'gnome-control-center.desktop': <{'position': <2>}>, 'org.gnome.Contacts.desktop': <{'position': <3>}>, 'org.gnome.gedit.desktop': <{'position': <4>}>, 'obsidian.desktop': <{'position': <5>}>, 'onlyoffice-desktopeditors.desktop': <{'position': <6>}>, 'org.freedesktop.Piper.desktop': <{'position': <7>}>, 'org.gnome.Software.desktop': <{'position': <8>}>, 'Utilities': <{'position': <9>}>}]
 disable-user-extensions=false
-disabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'zorin-menu@zorinos.com', 'zorin-taskbar@zorinos.com', 'zorin-desktop-icons@zorinos.com', 'zorin-spatial-window-switcher@zorinos.com']
+disabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'zorin-menu@zorinos.com', 'zorin-taskbar@zorinos.com', 'zorin-desktop-icons@zorinos.com', 'zorin-spatial-window-switcher@zorinos.com', 'zorin-window-move-effect@zorinos.com']
 enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'x11gestures@joseexposito.github.io', 'zorin-appindicator@zorinos.com', 'zorin-printers@zorinos.com', 'zorin-tiling-assistant@zorinos.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info', 'color-picker@tuberry', 'emoji-copy@felipeftn', 'CoverflowAltTab@palatis.blogspot.com', 'zorin-magic-lamp-effect@zorinos.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'pano@elhan.io', 'replaceActivitiesText@pratap.fastmail.fm', 'top-bar-organizer@julian.gse.jsts.xyz', 'Vitals@CoreCoding.com', 'wireless-hid@chlumskyvaclav.gmail.com', 'focus-follows-workspace@christopher.luebbemeier.gmail.com']
-favorite-apps=['org.gnome.Nautilus.desktop', 'kitty.desktop', 'firefox.desktop', 'google-chrome.desktop', 'dbeaver-ce.desktop', 'onlyoffice-desktopeditors.desktop', 'gimp.desktop', 'obsidian.desktop', 'spotify.desktop', 'discord.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'kitty.desktop', 'code.desktop', 'firefox.desktop', 'google-chrome.desktop', 'dbeaver-ce.desktop', 'gimp.desktop', 'spotify.desktop', 'discord.desktop']
 
 [org/gnome/shell/extensions/blur-my-shell/appfolder]
-blur=true
+blur=false
 style-dialogs=2
 
 [org/gnome/shell/extensions/blur-my-shell/applications]
@@ -221,9 +216,6 @@ text='Atividades'
 center-box-order=['dateMenu']
 left-box-order=['activities-icon-button', 'activities', 'vitalsMenu', 'appMenu']
 right-box-order=['appindicator-kstatusnotifieritem-chrome_status_icon_1', 'wireless-hid', 'EmojisMenu', 'color-picker@tuberry', 'zorin-tiling-assistant@zorinos.com', 'printers', 'appindicator-kstatusnotifieritem-software-update-available', 'drive-menu', 'screenRecording', 'screenSharing', 'dwellClick', 'a11y', 'keyboard', 'quickSettings']
-
-[org/gnome/shell/extensions/user-theme]
-name='Catppuccin-Mocha-Standard-Blue-Dark'
 
 [org/gnome/shell/extensions/vitals]
 alphabetize=true
