@@ -4,6 +4,10 @@ This is my Zorin OS installation setup. 😍
 
 This guide translates my personal installation, with packages that I use in my daily life. Use as an example, never as an absolute truth! 😉
 
+> [!NOTE]
+> All scripts and configurations have been tested on [Zorin OS 17.1 Core](https://zorin.com/os).  
+> Even though it should work on other versions or other distros, it is not guaranteed that it will work.
+
 ## Commands
 
 | Command                         | Description                                                       |
