@@ -24,7 +24,6 @@ bash $PWD/scripts/install-lazydocker.sh
 bash $PWD/scripts/install-lazygit.sh
 bash $PWD/scripts/install-neovim.sh
 bash $PWD/scripts/install-obsidian.sh
-bash $PWD/scripts/install-telegram.sh
 bash $PWD/scripts/remove-xterm.sh
 
 bash $PWD/scripts/copy-desktop-config.sh
