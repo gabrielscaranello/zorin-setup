@@ -1,7 +1,7 @@
 #! /bin/bash
 
 LAST_VERSION=$(curl -s https://api.github.com/repos/ClementTsang/bottom/releases/latest | grep -Po '"tag_name": "\K[^"]*')
-FILE_NAME="bottom-musl_${LAST_VERSION}_amd64.deb"
+FILE_NAME="bottom-musl_${LAST_VERSION}-1_amd64.deb"
 OUTPUT_FILE="/tmp/$FILE_NAME"
 DOWNLOAD_URL="https://github.com/ClementTsang/bottom/releases/download/$LAST_VERSION/$FILE_NAME"
 
