@@ -2,8 +2,6 @@
 
 PWD=$(pwd)
 
-. $PWD/scripts/_utils.sh
-
 echo "Installing Firefox..."
 
 echo "Removing firefox in flatpak..."
@@ -27,6 +25,5 @@ Pin-Priority: 1000
 
 echo "Installing Firefox..."
 
-install_nala
-sudo nala update
-sudo nala install -y firefox
+sudo apt update
+sudo apt install -y firefox
