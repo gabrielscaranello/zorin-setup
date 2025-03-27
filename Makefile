@@ -19,12 +19,6 @@ hide-desktop-apps:
 install-bottom:
 	@sh ./scripts/install-bottom.sh
 
-install-dbeaver:
-	@sh ./scripts/install-dbeaver.sh
-
-install-discord:
-	@sh ./scripts/install-discord.sh
-
 install-gitflow-cjs:
 	@sh ./scripts/install-gitflow-cjs.sh
 
@@ -52,14 +46,11 @@ install-neovim:
 install-nvm:
 	@sh ./scripts/install-nvm.sh
 
-install-obsidian:
-	@sh ./scripts/install-obsidian.sh
+install-rust:
+	@sh ./scripts/install-rust.sh
 
 install-system-packages:
 	@sh ./scripts/install-system-packages.sh
-
-install-telegram:
-	@sh ./scripts/install-telegram.sh
 
 remove-unused-packages:
 	@sh ./scripts/remove-unused-packages.sh
