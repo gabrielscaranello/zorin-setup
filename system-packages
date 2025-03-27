@@ -15,6 +15,7 @@ docker-compose-plugin
 exa
 fd-find
 file-roller
+firefox
 flameshot
 fonts-noto-color-emoji
 fonts-roboto
@@ -33,7 +34,6 @@ libu2f-udev
 luarocks
 ninja-build
 numlockx
-onlyoffice-desktopeditors
 papirus-icon-theme
 piper
 protobuf-compiler
