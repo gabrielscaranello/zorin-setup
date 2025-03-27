@@ -25,9 +25,6 @@ install-dbeaver:
 install-discord:
 	@sh ./scripts/install-discord.sh
 
-install-firefox:
-	@sh ./scripts/install-firefox.sh
-
 install-gitflow-cjs:
 	@sh ./scripts/install-gitflow-cjs.sh
 

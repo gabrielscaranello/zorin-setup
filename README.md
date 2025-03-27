@@ -5,7 +5,7 @@ This is my Zorin OS installation setup. 😍
 This guide translates my personal installation, with packages that I use in my daily life. Use as an example, never as an absolute truth! 😉
 
 > [!NOTE]
-> All scripts and configurations have been tested on [Zorin OS 17.1 Core](https://zorin.com/os).  
+> All scripts and configurations have been tested on [Zorin OS 17.3 Core](https://zorin.com/os).  
 > Even though it should work on other versions or other distros, it is not guaranteed that it will work.
 
 ## Commands
@@ -21,7 +21,6 @@ This guide translates my personal installation, with packages that I use in my d
 | `make install-bottom`           | Installs Bottom system monitor                                    |
 | `make install-dbeaver`          | Installs DBeaver                                                  |
 | `make install-discord`          | Installs Discord                                                  |
-| `make install-firefox`          | Remove flatpak firefox package and install deb package            |
 | `make install-gitflow-cjs`      | Installs GitFlow CJS                                              |
 | `make install-gnome-extensions` | Installs GNOME extensions                                         |
 | `make install-go`               | Installs Go language                                              |
