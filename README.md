@@ -41,7 +41,6 @@ This guide translates my personal installation, with packages that I use in my d
 | `make setup-icon-theme`         | Configures the system icon theme                                  |
 | `make setup-look`               | Configures the system appearance, including themes and icons      |
 | `make setup-swap`               | Configures the system swap partition or file                      |
-| `make setup-wallpaper`          | Sets the desktop wallpaper                                        |
 | `make usermod`                  | Modifies system user settings                                     |
 
 ## Links

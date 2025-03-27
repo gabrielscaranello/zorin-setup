@@ -85,9 +85,6 @@ setup-look:
 setup-swap:
 	@sh ./scripts/setup-swap.sh
 
-setup-wallpaper:
-	@sh ./scripts/setup-wallpaper.sh
-
 usermod:
 	@sh ./scripts/usermod.sh
 
