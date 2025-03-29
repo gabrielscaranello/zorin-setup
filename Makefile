@@ -1,81 +1,81 @@
 all:
-	@sh ./scripts/all.sh
+	@bash ./scripts/all.sh
 
 add-missing-repos:
-	@sh ./scripts/add-missing-repos.sh
+	@bash ./scripts/add-missing-repos.sh
 
 copy-desktop-config:
-	@sh ./scripts/copy-desktop-config.sh
+	@bash ./scripts/copy-desktop-config.sh
 
 copy-timeshift-config:
-	@sh ./scripts/copy-timeshift-config.sh
+	@bash ./scripts/copy-timeshift-config.sh
 
 enable-services:
-	@sh ./scripts/enable-services.sh
+	@bash ./scripts/enable-services.sh
 
 hide-desktop-apps:
-	@sh ./scripts/hide-desktop-apps.sh
+	@bash ./scripts/hide-desktop-apps.sh
 
 install-bottom:
-	@sh ./scripts/install-bottom.sh
+	@bash ./scripts/install-bottom.sh
 
 install-gitflow-cjs:
-	@sh ./scripts/install-gitflow-cjs.sh
+	@bash ./scripts/install-gitflow-cjs.sh
 
 install-gnome-extensions:
-	@sh ./scripts/install-gnome-extensions.sh
+	@bash ./scripts/install-gnome-extensions.sh
 
 install-go:
-	@sh ./scripts/install-go.sh
+	@bash ./scripts/install-go.sh
 
 install-google-chrome:
-	@sh ./scripts/install-google-chrome.sh
+	@bash ./scripts/install-google-chrome.sh
 
 install-lazydocker:
-	@sh ./scripts/install-lazydocker.sh
+	@bash ./scripts/install-lazydocker.sh
 
 install-lazygit:
-	@sh ./scripts/install-lazygit.sh
+	@bash ./scripts/install-lazygit.sh
 
 install-jetbrains-mono:
-	@sh ./scripts/install-jetbrains-mono.sh
+	@bash ./scripts/install-jetbrains-mono.sh
 
 install-neovim:
-	@sh ./scripts/install-neovim.sh
+	@bash ./scripts/install-neovim.sh
 
 install-nvm:
-	@sh ./scripts/install-nvm.sh
+	@bash ./scripts/install-nvm.sh
 
 install-system-packages:
-	@sh ./scripts/install-system-packages.sh
+	@bash ./scripts/install-system-packages.sh
 
 install-telegram:
-	@sh ./scripts/install-telegram.sh
+	@bash ./scripts/install-telegram.sh
 
 remove-unused-packages:
-	@sh ./scripts/remove-unused-packages.sh
+	@bash ./scripts/remove-unused-packages.sh
 
 remove-xterm:
-	@sh ./scripts/remove-xterm.sh
+	@bash ./scripts/remove-xterm.sh
 
 setup-cursor-theme:
-	@sh ./scripts/setup-cursor-theme.sh
+	@bash ./scripts/setup-cursor-theme.sh
 
 setup-default-apps:
-	@sh ./scripts/setup-default-apps.sh
+	@bash ./scripts/setup-default-apps.sh
 
 setup-gtk-theme:
-	@sh ./scripts/setup-gtk-theme.sh
+	@bash ./scripts/setup-gtk-theme.sh
 
 setup-icon-theme:
-	@sh ./scripts/setup-icon-theme.sh
+	@bash ./scripts/setup-icon-theme.sh
 
 setup-look:
-	@sh ./scripts/setup-look.sh
+	@bash ./scripts/setup-look.sh
 
 setup-swap:
-	@sh ./scripts/setup-swap.sh
+	@bash ./scripts/setup-swap.sh
 
 usermod:
-	@sh ./scripts/usermod.sh
+	@bash ./scripts/usermod.sh
 
