@@ -12,8 +12,8 @@ This guide translates my personal installation, with packages that I use in my d
 
 | Command                         | Description                                                       |
 | :------------------------------ | :---------------------------------------------------------------- |
-| `make add-missing-repos`        | Adds missing repositories required for the system                 |
 | `make all`                      | Executes all tasks defined in the scripts to configure the system |
+| `make add-missing-repos`        | Adds missing repositories required for the system                 |
 | `make copy-desktop-config`      | Copies the desktop configuration to user home                     |
 | `make copy-timeshift-config`    | Copies the Timeshift configuration for system backup              |
 | `make enable-services`          | Enables and starts system services                                |
@@ -28,8 +28,8 @@ This guide translates my personal installation, with packages that I use in my d
 | `make install-lazygit`          | Installs LazyGit                                                  |
 | `make install-neovim`           | Installs Neovim                                                   |
 | `make install-nvm`              | Installs NVM (Node Version Manager) to manage Node.js versions    |
-| `make install-rust`             | Installs Rust using Rustup                                        |
 | `make install-system-packages`  | Installs essential system packages                                |
+| `make install-telegram`         | Installs Telegram Desktop from GitHub                             |
 | `make remove-unused-packages`   | Removes unused software packages                                  |
 | `make remove-xterm`             | Removes Xterm package                                             |
 | `make setup-cursor-theme`       | Configures the mouse cursor theme                                 |

@@ -2,7 +2,6 @@ bat
 btop
 build-essential
 cargo
-celluloid
 cmake
 code
 containerd.io
@@ -23,7 +22,6 @@ g++
 gcc
 gdu
 gettext
-gimp
 gir1.2-gda-5.0
 gir1.2-gsound-1.0
 git
@@ -42,13 +40,12 @@ python3-pip
 python3-virtualenv
 ripgrep
 sassc
-spotify-client
 sqlite
-telegram-desktop
 tidy
 timeshift
 ttf-mscorefonts-installer
 unzip
+vlc
 xclip
 zram-tools
 zsh

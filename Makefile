@@ -46,11 +46,11 @@ install-neovim:
 install-nvm:
 	@sh ./scripts/install-nvm.sh
 
-install-rust:
-	@sh ./scripts/install-rust.sh
-
 install-system-packages:
 	@sh ./scripts/install-system-packages.sh
+
+install-telegram:
+	@sh ./scripts/install-telegram.sh
 
 remove-unused-packages:
 	@sh ./scripts/remove-unused-packages.sh

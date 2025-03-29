@@ -11,7 +11,7 @@ _add_docker_repo() {
   sudo install -m 0755 -d /etc/apt/keyrings
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
   sudo chmod a+r /etc/apt/keyrings/docker.gpg
-  echo "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable" | sudo tee /etc/apt/sources.list.d/docker.list >/dev/null
+  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable" | sudo tee /etc/apt/sources.list.d/docker.list >/dev/null
 
   echo "Docker repo added."
 }
@@ -46,18 +46,6 @@ _add_papirus_repo() {
   echo "Papirus repo added."
 }
 
-_add_spotify_repo() {
-  echo "Adding Spotify repo..."
-  echo "Removing old files if exists..."
-  sudo rm -rf /etc/apt/trusted.gpg.d/spotify.gpg /etc/apt/sources.list.d/spotify.list
-
-  echo "Adding Spotify repo..."
-  curl -sS https://download.spotify.com/debian/pubkey_C85668DF69375001.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
-  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-
-  echo "Spotify repo added."
-}
-
 _add_vscode_repo() {
   echo "Adding VSCode repo..."
   echo "Removing old files if exists..."
@@ -74,7 +62,6 @@ _add_vscode_repo() {
 echo "Adding missing deb repos..."
 _add_docker_repo
 _add_papirus_repo
-_add_spotify_repo
 _add_vscode_repo
 sudo apt update
 echo "Missing deb repos added."
