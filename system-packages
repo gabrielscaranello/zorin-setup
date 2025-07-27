@@ -33,7 +33,6 @@ luarocks
 ninja-build
 numlockx
 papirus-icon-theme
-piper
 protobuf-compiler
 python3
 python3-pip

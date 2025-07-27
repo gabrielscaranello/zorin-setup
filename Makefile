@@ -16,9 +16,6 @@ enable-services:
 hide-desktop-apps:
 	@bash ./scripts/hide-desktop-apps.sh
 
-install-bottom:
-	@bash ./scripts/install-bottom.sh
-
 install-gitflow-cjs:
 	@bash ./scripts/install-gitflow-cjs.sh
 
