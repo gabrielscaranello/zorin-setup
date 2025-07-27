@@ -12,6 +12,7 @@ bash "${PWD}/scripts/install-system-packages.sh"
 bash "${PWD}/scripts/install-flatpak-packages.sh"
 bash "${PWD}/scripts/install-nvm.sh"
 
+bash "${PWD}/scripts/install-fdfind.sh"
 bash "${PWD}/scripts/install-gitflow-cjs.sh"
 bash "${PWD}/scripts/install-gnome-extensions.sh"
 bash "${PWD}/scripts/install-go.sh"

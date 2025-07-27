@@ -16,6 +16,9 @@ enable-services:
 hide-desktop-apps:
 	@bash ./scripts/hide-desktop-apps.sh
 
+install-fd:
+	@bash ./scripts/install-fdfind.sh
+
 install-gitflow-cjs:
 	@bash ./scripts/install-gitflow-cjs.sh
 

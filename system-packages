@@ -12,7 +12,6 @@ docker-ce-cli
 docker-compose
 docker-compose-plugin
 exa
-fd-find
 file-roller
 firefox
 flameshot
@@ -22,11 +21,13 @@ g++
 gcc
 gdu
 gettext
+ghostscript
 gir1.2-gda-5.0
 gir1.2-gsound-1.0
 git
 gnome-shell-extension-manager
 gnome-text-editor
+imagemagick
 jq
 kitty
 libu2f-udev
