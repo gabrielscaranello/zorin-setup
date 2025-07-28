@@ -24,6 +24,7 @@ This guide translates my personal installation, with packages that I use in my d
 | `make install-go`               | Installs Go language                                              |
 | `make install-google-chrome`    | Installs Google Chrome                                            |
 | `make install-jetbrains-mono`   | Installs JetBrains Mono font                                      |
+| `make install-kitty`            | Installs Kitty                                                    |
 | `make install-lazydocker`       | Installs LazyDocker                                               |
 | `make install-lazygit`          | Installs LazyGit                                                  |
 | `make install-neovim`           | Installs Neovim                                                   |

@@ -31,6 +31,9 @@ install-go:
 install-google-chrome:
 	@bash ./scripts/install-google-chrome.sh
 
+install-kitty:
+	@bash ./scripts/install-kitty.sh
+
 install-lazydocker:
 	@bash ./scripts/install-lazydocker.sh
 

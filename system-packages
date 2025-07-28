@@ -29,7 +29,6 @@ gnome-shell-extension-manager
 gnome-text-editor
 imagemagick
 jq
-kitty
 libu2f-udev
 luarocks
 ninja-build
