@@ -49,6 +49,9 @@ install-neovim:
 install-nvm:
 	@bash ./scripts/install-nvm.sh
 
+install-rust:
+	@bash ./scripts/install-rust.sh
+
 install-system-packages:
 	@bash ./scripts/install-system-packages.sh
 

@@ -1,7 +1,6 @@
 bat
 btop
 build-essential
-cargo
 cmake
 code
 containerd.io

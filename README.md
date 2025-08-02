@@ -29,6 +29,7 @@ This guide translates my personal installation, with packages that I use in my d
 | `make install-lazygit`          | Installs LazyGit                                                  |
 | `make install-neovim`           | Installs Neovim                                                   |
 | `make install-nvm`              | Installs NVM (Node Version Manager) to manage Node.js versions    |
+| `make install-rust`             | Installs Rust using Rustup                                        |
 | `make install-system-packages`  | Installs essential system packages                                |
 | `make install-telegram`         | Installs Telegram Desktop from GitHub                             |
 | `make remove-unused-packages`   | Removes unused software packages                                  |

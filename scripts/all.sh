@@ -22,6 +22,7 @@ bash "${PWD}/scripts/install-kitty.sh"
 bash "${PWD}/scripts/install-lazydocker.sh"
 bash "${PWD}/scripts/install-lazygit.sh"
 bash "${PWD}/scripts/install-neovim.sh"
+bash "${PWD}/scripts/install-rust.sh"
 bash "${PWD}/scripts/install-telegram.sh"
 bash "${PWD}/scripts/remove-xterm.sh"
 
